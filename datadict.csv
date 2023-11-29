@@ -1,0 +1,35 @@
+Field,Description
+id,unique id for sensor reading
+user_id,id for api user
+value,reading value
+unit,unit of reading
+device_id,safecast device id 
+measurement_import_id,
+captured_at,date of safecast reading
+height,height of sensor
+devicetype_id,type of safecast device
+latitude,latitude of safecast device
+longitude,longitude of safecast device
+city,city where safecast device is located
+p_lowinc,% population that is low income in city where sensor is located
+pct_minority,% population that is non-white and/or Hispanic/Latino in city where sensor is located
+p_edu_lths,% population age 25+that has less than a high school disploma city where sensor is located
+p_emp_stat_unemployed,% population 18+ that is unemployed city where sensor is located
+lifeexp,Life expectancy in city where sensor is located
+per_cap_inc,per capita income in city where sensor is located
+raw_e_diesel,Diesel Particulate Matter (ug/m3)
+raw_e_cancer, Air Toxics Cancer Risk (risk per MM)
+raw_e_resp,Air Toxics Respiratory Hazard Index
+raw_e_traffic,Traffic Proximity (daily traffic count/distance to road)
+raw_e_npl,Superfund Proximity (site count/km distance)
+raw_e_rmp,RMP Facility Proximity (facility count/km distance)
+raw_e_tsdf,Hazardous Waste Proximity (facility count/km distance)
+raw_e_o3,Ozone (ppb)
+raw_e_pm25,Particulate Matter 2.5 (ug/m3)
+raw_e_rsei_air,Toxic Releases to Air
+totalpop,Total population
+num_airpoll,Number of Air Pollution Facilities
+raw_hi_asthma,Asthma Hazard Index
+raw_hi_cancer,Cancer Hazard Index
+raw_ci_fire,Estimated Current Fire Risk
+raw_ci_fire30,Estimated Fire Risk in 30 Years
